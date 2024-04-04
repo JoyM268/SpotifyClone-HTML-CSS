@@ -82,6 +82,10 @@
         transform: scale(1.03);
     }
 
+    .right-section .menu:active{
+        opacity: 0.6;
+    }
+
     .right-section .open-app-button{
         border: none;
         border-radius: 25px;
@@ -96,6 +100,10 @@
 
     .right-section .open-app-button:hover{
         transform: scale(1.05);
+    }
+
+    .right-section .open-app-button:active{
+        opacity: 0.7;
     }
 
     .section-name{
